@@ -6,6 +6,32 @@
 
 ## Use input-output redirection (>, >>, |, 2>, etc.)
 
+
+
+Input and output in the Linux environment is distributed across three streams. These streams are:
+
+standard input (stdin)
+standard output (stdout)
+standard error (stderr)
+
+The streams are also numbered:
+
+stdin (0)
+stdout (1)
+stderr (2)
+
+
+`>`
+`>>`
+`|`
+`2>`
+`&>`
+`xargs`
+`tee`
+`STDOUT`
+`STDERR`
+`STDIN`
+
 ## Use grep and regular expressions to analyze text
 
 ## Access remote systems using ssh
