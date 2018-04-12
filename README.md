@@ -6,31 +6,35 @@
 
 ## Use input-output redirection (>, >>, |, 2>, etc.)
 
+Input and output in Linux is handled via three streams. These streams are called:
 
-
-Input and output in the Linux environment is distributed across three streams. These streams are:
+| File Stream     | Name            | Integer | Description |
+| :----------:    |-----------------| :-----:   |-------------|
+| stdin           | Standard Input  | 0       | 0           |
+| stdout          | Standard Output | 1       | 1           |
+| stderr          | Standard Error  | 2       | 2           |
 
 standard input (stdin)
 standard output (stdout)
 standard error (stderr)
 
-The streams are also numbered:
+Each stream is associated with a number
 
 stdin (0)
 stdout (1)
 stderr (2)
 
+Various redirection operators allow us to take the standard streams and pass it's content elsewhere.
 
 `>`
 `>>`
 `|`
 `2>`
 `&>`
+
+There are also some commond Linux commands that handle streams:
 `xargs`
 `tee`
-`STDOUT`
-`STDERR`
-`STDIN`
 
 ## Use grep and regular expressions to analyze text
 
